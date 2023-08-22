@@ -1,0 +1,35 @@
+.phonebookSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(59, 50, 57, 1);
+  margin: 50px auto;
+  width: 450px;
+  padding: 10px;
+  border: 1px solid rgba(59, 50, 57, 1);
+  border-radius: 10px;
+  box-shadow: 0 60px 80px rgba(0, 0, 0, 0.6), 0 45px 26px rgba(0, 0, 0, 0.14);
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+}
+.phonebookTitle {
+  margin-bottom: 10px;
+  font-size: 40px;
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-color: #00dbde;
+  background-image: linear-gradient(0deg, #00dbde 0%, #fc00ff 100%);
+}
+
+.phonebookContacts {
+  composes: phonebookTitle;
+  font-size: 30px;
+}
+.allContacts {
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
